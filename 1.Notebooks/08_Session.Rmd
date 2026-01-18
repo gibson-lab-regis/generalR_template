@@ -15,4 +15,67 @@ When you save the notebook, an HTML file containing the code and output will be 
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
+**Instructions**
+
+[08 instructions](https://riffomonas.org/generalR/08_session.html)
+
+```{r}
+library(tidyverse)
+
+aa_weather <- read_csv('noaa/USC00200230.csv', col_types="ccDdddddddddd") %>%
+	select(DATE, starts_with("T"), PRCP, SNOW, SNWD) %>%
+	rename("date" = "DATE",
+		"t_max_c" = "TMAX",
+		"t_min_c" = "TMIN",
+		"t_obs_c" = "TOBS",
+		"total_precip_mm" = "PRCP",
+		"snow_fall_mm" = "SNOW",
+		"snow_depth_mm" = "SNWD") %>%
+	mutate(t_obs_c = ifelse(t_obs_c > 40 | t_obs_c < -40, NA, t_obs_c),
+		total_precip_mm = ifelse(total_precip_mm > 250, NA, total_precip_mm),
+		snow_fall_mm = ifelse(snow_fall_mm > 500, NA, snow_fall_mm),
+		snow_depth_mm = ifelse(snow_depth_mm > 500, NA, snow_depth_mm)
+	)
+```
+
+## Creating columns
+
+```{r}
+
+```
+
+
+## Writing our own functions
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+(add additional chunks as needed)
+
+
+
+## Exercises
+
+### 1
+
+```{r}
+
+```
+
+### 2
+
+```{r}
+
+```
+
+### 3
+
+```{r}
+
+```
 
