@@ -6,7 +6,7 @@ This repository holds the datasets used in the [generalR](http://www.riffomonas.
 
 ## Instruction files
 
-You're going to follow the 15 "session" tutorials to learn more about R, written by Pat Schloss (site)[<https://riffomonas.org/generalR/>].
+You're going to follow the 15 "session" tutorials to learn more about R, written by Pat Schloss [site](<https://riffomonas.org/generalR/>).
 
 -   [00 instructions](https://riffomonas.org/generalR/00_session.html)
 -   [01 instructions](https://riffomonas.org/generalR/01_session.html)
@@ -41,11 +41,8 @@ After completing each tutorial, be sure to use GitHub Desktop to commit your cha
 
 Use the following structure for your commit name when you have finished a tutorial
 
-"[initials]/submit [##]"
+"[initials]/submit [\##]"
 
 Example "AGG/submit 00" if I was submitting 00.
 
-You can use the pull request "Feedback" to ask Dr. Gibson for help as you go, or for
-specific areas on which you'd like feedback.
-
-
+You can use the pull request "Feedback" to ask Dr. Gibson for help as you go, or for specific areas on which you'd like feedback.
