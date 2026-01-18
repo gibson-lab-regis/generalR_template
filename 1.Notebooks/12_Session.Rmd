@@ -15,4 +15,91 @@ When you save the notebook, an HTML file containing the code and output will be 
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
+**Instructions**
+
+[12 instructions](https://riffomonas.org/generalR/12_session.html)
+
+## Rinse, repeat to answer new questions
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+(add new chunks as needed)
+
+
+## Plotting continuous data against categorical data
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+## Using factor to order categorical variables
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+(add new chunks as needed)
+
+
+## Thinking of our data as paired and redefining tidy
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+
+
+
+## Exercises
+
+### 1
+
+```{r}
+
+```
+
+### 2
+
+```{r}
+
+```
+
+### 3
+
+```{r}
+
+```
+
+### 4
+
+```{r}
+
+```
+
+
 
