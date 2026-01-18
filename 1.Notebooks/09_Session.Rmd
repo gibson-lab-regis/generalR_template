@@ -15,4 +15,136 @@ When you save the notebook, an HTML file containing the code and output will be 
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
 
+**Instructions**
+
+[09 instructions](https://riffomonas.org/generalR/09_session.html)
+
+
+## Grouping and summarizing data
+
+```{r}
+
+```
+
+
+## Working with dates
+
+```{r}
+
+```
+
+## Grouping and summarizing data, doing it
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+## Thinking about and visualizing our data
+
+```{r}
+
+```
+
+
+```{r}
+
+```
+
+
+## DRY revisited
+
+```{r}
+
+```
+
+
+## Rinse, repeat
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+
+(add more chunks as needed)
+
+
+## Exercises
+
+### 1
+
+```{r}
+
+```
+
+### 2
+
+```{r}
+
+```
+
+### 3
+
+```{r}
+
+```
+
+### 4
+
+```{r}
+
+```
+
+### 5
+
+```{r}
+
+```
+
+
+
+
+## Exercises
+
+### 1
+
+```{r}
+
+```
+
+### 2
+
+```{r}
+
+```
+
+### 3
+
+```{r}
+
+```
+
+### 4
+
+```{r}
+
+```
+
+### 5
+
+```{r}
+
+```
+
+
+
 
