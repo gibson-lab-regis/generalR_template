@@ -25,13 +25,38 @@ You're going to follow the 15 "session" tutorials to learn more about R, written
 -   [14 instructions](https://riffomonas.org/generalR/14_session.html)
 -   [15 instructions](https://riffomonas.org/generalR/15_session.html)
 
-## Open as project
+## Getting started with Session 00
 
-Be sure to open the folder as an R project, instead of just opening the individual files. Click File -\> Open Project
+If you don't already have R and RStudio on your device, do the following steps
 
-## Your work
+-  Download [R](https://cloud.r-project.org/)
+-  Download [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+		-  This is how you interact with a user interface for R
 
-For each of the tutorials, you will use the provided R Notebook for each hsession (File -\> New File -\> R Notebook) within the [1.Notebooks](./1.Notebooks) folder. When you open each notebook, be sure to change the knit directory to the project directory. Do this by clicking the downward arrow by "Preview," then selecting Knit Directory -\> Project Directory
+You should already have GitHub Desktop downloaded from the first GitHub Classroom assignment.
+
+We're now going to clone this repository onto your device so that you can work on the files in RStudio as a project
+
+-  Open GitHub Desktop
+-  If you've already cloned another repository, click on the name of that repo in the "current repository" section
+-  Click "Add"
+-  Click "Clone Repository"
+-  Select "GitHub" tab
+-  Find this repository
+-  Choose the path for the local "Development" folder that you created
+-  Click "Clone"
+
+### Open code as an R project
+
+After cloning the files onto your computer
+
+-  Click the button next to "View the files of your repository in Finder/File Explorer"
+-  Find the generalR.Rproj file
+-  Double-click to open that file. This should open the project in RStudio
+
+## Your tasks
+
+For each of the tutorials, you will use the provided R Notebook for each session within the [1.Notebooks](./1.Notebooks) folder. When you open each notebook, be sure to change the knit directory to the project directory. Do this by clicking the downward arrow by "Preview," then selecting Knit Directory -\> Project Directory
 
 ![](projectDirectory.png)
 
@@ -43,6 +68,6 @@ Use the following structure for your commit name when you have finished a tutori
 
 "[initials]/submit [\##]"
 
-Example "AGG/submit 00" if I was submitting 00.
+Example "AGG/submit 00" if Dr. Gibson was submitting 00.
 
 You can use the pull request "Feedback" to ask Dr. Gibson for help as you go, or for specific areas on which you'd like feedback.
